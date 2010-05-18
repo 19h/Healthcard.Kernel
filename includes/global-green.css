@@ -1,0 +1,238 @@
+html {
+	color: #3f3;
+	background-color: #181818;
+}
+
+body {
+	font: 14px "Bitstream Vera Sans Mono", monospace !important;
+	color: #3f3;
+	background-color: #181818;
+	margin: 44px;
+	padding: 8em 0 0;
+	position: relative;
+}
+
+p {
+   	text-align: inherit;
+	padding: 0.5em 0;
+	margin: 1em 0;
+}
+
+abbr {
+	border-bottom: 2px dotted #060;
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	padding: 0 0 1em;
+}
+
+ul {
+	list-style: square;
+	margin: 0.5em 0 1em;
+}
+
+table {
+	width: 100%;
+	margin: 1em 0 1.5em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #666;
+}
+th[colspan] {
+	text-align: center;
+}
+td, th {
+	padding: 0em 0em;
+	border: 1px solid #060;
+}
+
+table.rows td {
+	border-width: 0px 0;
+}
+table.rows th {
+	border-width: 0px 0 3px;
+	border-bottom-style: double;
+}
+
+table.cols td,
+table.cols th {
+	border-width: 0 0px;
+}
+
+cite {
+	font-style: normal;
+}
+
+blockquote, pre {
+	background-color: #020;
+	border: 1px solid #040;
+	margin: 1em 0;
+}
+pre {
+	padding: 0.5em 1em;
+}
+blockquote {
+	padding: 0 1em;
+}
+q {
+	quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+img.button-88x31 {
+	border: 0;
+	width: 88px;
+	height: 31px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: bold 1em "Bitstream Vera Sans Mono", monospace !important;
+	color: #000;
+	background-color: #3e3;
+	text-align: left;
+	text-transform: uppercase;
+}
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+	color: #000 !important;
+}
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+	color: #3f3 !important;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	background-color: transparent !important;
+}
+
+var, code {
+	margin: 0 -2px;
+	background-color: #030;
+	font-style: inherit;
+}
+kbd {
+	font: caption;
+	color: ButtonText;
+	background-color: ButtonFace;
+	border: 1px solid;
+	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+pre > code {
+	background: transparent;
+}
+
+a {
+	text-decoration: underline;
+	padding: 0  0.1em 0  0.1em;
+	margin:  0 -0.1em 0 -0.1em;
+}
+a:link {
+	color: #3f3;
+}
+a:visited {
+	color: #2d2;
+}
+a:hover {
+	text-decoration: none;
+	color: #3f3;
+	background: #040;
+}
+a:active {
+	color: #3f3;
+}
+a[name], a[id] {
+	padding: 0;
+	margin: 0;
+}
+
+.blocklink {
+   	margin: auto;
+	display: table;
+}
+.blocklink a {
+	text-align: center;
+	display: table-cell;
+}
+
+.date, .subtitle {
+	color: #090;
+	padding: 0;
+	margin: 0;
+}
+.date {
+	margin-bottom: 1em;
+}
+
+.mail {
+	font-style: inherit;
+}
+
+.smiley {
+	font-weight: bold;
+	font-family: monospace;
+	color: #ff0;
+}
+
+#navigation {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #3f3;
+	position: absolute;
+	top: 0;
+}
+#navigation ul {
+	width: 20em;
+	padding: 0;
+	margin: 1em;
+}
+#navigation li {
+	list-style-type: none;
+	position: relative;
+}
+#navigation a {
+	text-decoration: none;
+	color: #3f3;
+}
+#navigation a:link, #navigation a:active, #navigation a:visited {
+	background-color: transparent;
+}
+#navigation a:hover {
+	font-weight: bold;
+	color: #000;
+	background-color: #3f3;
+}
+#navigation a i {
+	font-style: normal;
+	position: absolute;
+	left: 2em;
+}
+#navigation a:hover i {
+	font-weight: bold;
+	color: #3f3;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#content, #activity, #newPost, #artic, #Quote, #EQ {
+	clear: both;
+	padding: 0 2.5em 0 2em;
+	margin: 0;
+	border: 1px solid #3f3;
+	position: relative;
+}
+
+body #content #activity #Quote #EQ {
+	margin: 1em -2.5em 1em -2em;
+	padding: 0 2.5em 1em 2em;
+	font-size: inherit;
+	color: inherit;
+	background-color: inherit;
+	border-bottom: 1px solid #3f3;
+}
+/**/
+/*body #content h1.title,*/
+body #content .body + h1.title #activity .body + h1.title #Quote .body + h1.title #EQ .body + h1.title {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

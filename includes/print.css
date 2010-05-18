@@ -1,0 +1,8 @@
+#navigation, #footer, #footer-button, #log-meta, .none {
+	display: none;
+}
+
+#content, #activity, #newPost, #Quote, #EQ {
+	padding: 1em !important;
+	border: 1px solid #000;
+}

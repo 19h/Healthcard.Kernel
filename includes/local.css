@@ -1,0 +1,357 @@
+#meta {
+	float: left;
+	width: 1em;
+	/*background: transparent url(/img/feed.png) no-repeat 32px 32px;*/
+}
+#meta a, #meta abbr {
+	border: 0;
+}
+#content .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#content .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#content .body + h1.long, #articulate {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#content h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#content h1 a[rel="bookmark"]:link,
+#content h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#content h1 a[rel="bookmark"]:focus,
+#content h1 a[rel="bookmark"]:hover,
+#content h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#content h1.short-entry {
+	font-size: 1.90em;
+}
+#content .body {
+	clear: left;
+}
+#content .body > blockquote:first-child, #content .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#content .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#content .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#content .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+#activity .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#activity .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#activity .body + h1.long, #articulate {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#activity h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#activity h1 a[rel="bookmark"]:link,
+#activity h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#activity h1 a[rel="bookmark"]:focus,
+#activity h1 a[rel="bookmark"]:hover,
+#activity h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#activity h1.short-entry {
+	font-size: 1.90em;
+}
+#activity .body {
+	clear: left;
+}
+#activity .body > blockquote:first-child, #activity .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#activity .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#activity .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#activity .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+#artic .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#artic .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#artic .body + h1.long, #articulate {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#artic h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#artic h1 a[rel="bookmark"]:link,
+#artic h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#artic h1 a[rel="bookmark"]:focus,
+#artic h1 a[rel="bookmark"]:hover,
+#artic h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#artic h1.short-entry {
+	font-size: 1em;
+}
+#artic .body {
+	clear: left;
+}
+#artic .body > blockquote:first-child, #artic .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#artic .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#artic .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#artic .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+
+#newPost .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#newPost .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#newPost .body + h1.long, #newPost {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#newPost h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#newPost h1 a[rel="bookmark"]:link,
+#newPost h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#newPost h1 a[rel="bookmark"]:focus,
+#newPost h1 a[rel="bookmark"]:hover,
+#newPost h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#newPost h1.short-entry {
+	font-size: 1em;
+}
+#newPost .body {
+	clear: left;
+}
+#newPost .body > blockquote:first-child, #newPost .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#newPost .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#newPost .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#newPost .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+
+#Quote .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#Quote .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#Quote .body + h1.long, #articulate {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#Quote h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#Quote h1 a[rel="bookmark"]:link,
+#Quote h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#Quote h1 a[rel="bookmark"]:focus,
+#Quote h1 a[rel="bookmark"]:hover,
+#Quote h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#Quote h1.short-entry {
+	font-size: 1em;
+}
+#Quote .body {
+	clear: left;
+}
+#Quote .body > blockquote:first-child, #Quote .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#Quote .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#Quote .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#Quote .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+
+#Quote {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+#EQ .body + h1 {
+	margin-top: 1.1818em; /* 1.5 * 2.6 / 3.3 */
+	margin-left:  -0.60606em; /* 2 / 3.3 */
+	margin-right: -0.60606em;
+	padding: 0.3939em 0.60606em 0; /* 0.5 * 2.6 / 3.3 */
+	border-top: 1px solid #666;
+}
+#EQ .body + h1.single-word {
+	margin-top: 1em; /* 1.5 * 2.6 / 3.9 */
+	margin-left:  -0.51282em; /* 2 / 3.9 */
+	margin-right: -0.51282em;
+	padding: 0.3333em 0.51282em 0; /* 0.5 * 2.6 / 3.9 */
+}
+#EQ .body + h1.long, #articulate {
+	margin-top: 1.5em; /* baseline */
+	margin-left:  -0.76923em; /* 2 / 2.6 */
+	margin-right: -0.76923em;
+	padding: 0.5em 0.76923em 0; /* baseline */
+}
+#EQ h1 a[rel="bookmark"] {
+	text-decoration: none;
+	padding: 0;
+	line-height: 1.3;
+}
+#EQ h1 a[rel="bookmark"]:link,
+#EQ h1 a[rel="bookmark"]:visited {
+	border-bottom: 1px dotted #666;
+}
+#EQ h1 a[rel="bookmark"]:focus,
+#EQ h1 a[rel="bookmark"]:hover,
+#EQ h1 a[rel="bookmark"]:active {
+	border-bottom: 1px solid #444;
+}
+#EQ h1.short-entry {
+	font-size: 1em;
+}
+#EQ .body {
+	clear: left;
+}
+#EQ .body > blockEQ:first-child, #EQ .body > pre:first-child {
+	margin-top: 0.5em;
+}
+#EQ .seen-list > li {
+	list-style: none none;
+	margin-bottom: 1em;
+}
+#EQ .seen-list > li > h4 {
+	float: left;
+	margin: 0 .5em 0 -1.1em;
+	padding: 0.375em 0 0;
+	white-space: nowrap;
+}
+#EQ .seen-list > li > h4 > a {
+	margin: 0 0.25em;
+	padding: 0 0.125em;
+}
+
+#EQ {
+	margin-top: 1.5em;
+	text-align: center;
+}
