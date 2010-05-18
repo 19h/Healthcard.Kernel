@@ -1,6 +1,6 @@
-@echo off
-echo Name of this commit in this branch:
-set /p cname=
 git add *
-git commit -m "%cname%"
+pause
+git commit -m "Auto-Commit"
+pause
 git push origin master
+pause
