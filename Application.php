@@ -1,6 +1,6 @@
 <?
 	/*
-		(c) Kenan Sulayman. 2010.
+		(c) Kenan Sulayman. 2011.
 		Contains several bugs. TODO fix.
 			{
 				data-transfer,
